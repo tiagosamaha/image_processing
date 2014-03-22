@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
 
     image = imread(argv[1], 0);
 
-    imshow("negative", Laplacian(image));
+    imshow("image", Laplacian(Gaussian(image)));
 
     waitKey();
     destroyAllWindows();
