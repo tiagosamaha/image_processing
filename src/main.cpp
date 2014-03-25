@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include <opencv2/opencv.hpp>
-
 #include "filters.hpp"
 
 using namespace std;
